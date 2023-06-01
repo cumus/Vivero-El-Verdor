@@ -3,22 +3,22 @@ body {
     background-color: #ffffff;
 }
 
-/*.navbar {
+.navbar {
     background-color: #ffffff
-}*/
+}
 
 .bg-green {
     background-color: #31a02b
 }
 
-
+/* Text over images */
 .text-over-img-bg {
     position: absolute;
     bottom: 0%;
     top: 0%;
     right: 0%;
     left: 0%;
-    }
+}
 
 .text-over-img {
     position: absolute;
@@ -26,18 +26,28 @@ body {
     left: 0%;
     top: 35%;
     font-size: calc(0.5rem + 2.5vw);
-    }
+}
 
 .text-over-img-caption {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    }
+}
 
+/* Specific Font Size Formulas */
+.shrinking-contacts-text {
+    font-size: calc(0.25rem + 2vw);
+}
 
+/* Growth Animations */
+.grow {
+    transition: all .2s ease-in-out;
+}
 
-
+.grow:hover {
+    transform: scale(1.1);
+}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
