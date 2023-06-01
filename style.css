@@ -40,6 +40,11 @@ body {
     font-size: calc(0.25rem + 2vw);
 }
 
+/* Object Fir */
+.img-contain {
+    object-fit: contain;
+}
+
 /* Growth Animations */
 .grow {
     transition: all .2s ease-in-out;
