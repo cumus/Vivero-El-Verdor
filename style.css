@@ -40,9 +40,18 @@ body {
     font-size: calc(0.25rem + 2vw);
 }
 
+.shrinking-cp-text {
+    font-size: calc(0.7rem + 0.5vw);
+}
+
 /* Object Fir */
 .img-contain {
     object-fit: contain;
+}
+
+.img-cover {
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /* Growth Animations */
